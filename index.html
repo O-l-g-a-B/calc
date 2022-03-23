@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <section style="background: rgb(231, 171, 171); padding: 30px; width: 180px;">
+        <h1>КАЛЬКУЛЯТОР</h1>
+        <input style="width: 175px;" id="num1" />
+
+        <div id="operator_btns">
+            <button id="plus" onclick="op='+'">+</button>
+            <button id="minus" onclick="op='-'">-</button>
+            <button id="times" onclick="op='*'">x</button>
+            <button id="divide" onclick="op='/'">:</button>
+        </div>
+
+        <input style="width: 175px;" id="num2" />
+        <br>
+
+        <button onclick="func()">Посчитать</button>
+
+        <div style="width: 180px; height: 25px; background: white; border: 1px solid rgb(98, 19, 19);margin-top: 10px;"
+            id="result"></div>
+
+    </section>
+
+    <script src="/index.js"></script>
+</body>
+
+</html>
